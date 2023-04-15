@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import Login from './conponenets/Login'
+import Signup from './conponenets/Signup'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className=" ">
+    <div >
       <Login />
+      {/* <Signup /> */}
     </div>
   )
 }
